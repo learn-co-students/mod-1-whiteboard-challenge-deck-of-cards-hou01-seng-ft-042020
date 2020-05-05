@@ -9,7 +9,6 @@ class Deck
             end
         end
     end
-
     def choose_card
         @cards.delete(@cards.sample)
     end
@@ -22,5 +21,4 @@ class Card
         @suit = suit
         @rank = rank
     end
-
 end
